@@ -1,1 +1,46 @@
+# Global Companies Market Intelligence Platform
+# Python dependencies for all 8 notebooks:
+# 01_Data_Loading.ipynb
+# 02_Data_Cleaning.ipynb
+# 03_Data_Merging.ipynb
+# 04_Feature_Engineering.ipynb
+# 05_Exploratory_Data_Analysis.ipynb
+# 06_Data_Visualization.ipynb
+# 07_SQL_Export.ipynb
+# 08_Business_Insights.ipynb
+#
+# Install with:
+#   python -m pip install -r requirements.txt
 
+# Core data analysis
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+scipy>=1.13,<2.0
+
+# Visualization
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+plotly>=5.24,<7.0
+
+# Notebook environment
+jupyter>=1.1,<2.0
+notebook>=7.2,<8.0
+ipykernel>=6.29,<7.0
+ipywidgets>=8.1,<9.0
+
+# CSV / Excel / file support
+openpyxl>=3.1,<4.0
+xlsxwriter>=3.2,<4.0
+
+# MySQL connectivity and SQL export
+SQLAlchemy>=2.0,<3.0
+mysql-connector-python>=9.0,<10.0
+PyMySQL>=1.1,<2.0
+
+# PDF / PowerPoint report generation (for project reports and presentation)
+reportlab>=4.2,<5.0
+python-pptx>=1.0,<2.0
+
+# Utilities
+python-dateutil>=2.9,<3.0
+tqdm>=4.66,<5.0
